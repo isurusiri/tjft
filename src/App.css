@@ -15,7 +15,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: top;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #4d4a4a;
