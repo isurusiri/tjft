@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Tweet } from "react-twitter-widgets";
+import { TJFTTweet } from "./components/TJFTTweet";
 
 function App() {
   const tweets = [
@@ -16,9 +16,7 @@ function App() {
       <div>Tech Jobs from Twitter.</div>
       <div className="Jobs">
         {tweets.map((tweet) => (
-          <div style={{ padding: 10 }} id={tweet}>
-            <Tweet tweetId={tweet} options={{ width: "800" }}></Tweet>
-          </div>
+          <TJFTTweet tweetId={tweet} key={tweet}></TJFTTweet>
         ))}
       </div>
     </div>

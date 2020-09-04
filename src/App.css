@@ -19,4 +19,5 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #4d4a4a;
+  flex-wrap: wrap;
 }
